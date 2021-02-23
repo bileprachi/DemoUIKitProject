@@ -12,10 +12,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Welcome to UIKit Demo Project-->
+        <!--Demo of Table View-->
         <scene sceneID="tyb-GY-hcl">
             <objects>
-                <viewController id="pM7-G9-p0y" customClass="HomeViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Demo of Table View" id="pM7-G9-p0y" customClass="HomeViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QEN-mc-gA1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,7 +77,7 @@
                                     <outlet property="delegate" destination="pM7-G9-p0y" id="3vs-y7-yrQ"/>
                                 </connections>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on any one to go Ahead" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ac-cc-K6D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to Demo of UiKit Project" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Ac-cc-K6D">
                                 <rect key="frame" x="20" y="108" width="374" height="25.5"/>
                                 <fontDescription key="fontDescription" name="PingFangTC-Semibold" family="PingFang TC" pointSize="18"/>
                                 <color key="textColor" red="0.01437717583" green="0.28914353250000002" blue="0.67696905139999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -96,7 +96,7 @@
                             <constraint firstItem="39f-R9-UQQ" firstAttribute="leading" secondItem="V2f-HM-mad" secondAttribute="leading" constant="10" id="sse-CY-esz"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Welcome to UIKit Demo Project" largeTitleDisplayMode="always" id="hsZ-2a-9tp">
+                    <navigationItem key="navigationItem" title="Demo of Table View" largeTitleDisplayMode="always" id="hsZ-2a-9tp">
                         <barButtonItem key="backBarButtonItem" title="Back" id="3vC-wd-04T"/>
                     </navigationItem>
                     <connections>
@@ -107,10 +107,10 @@
             </objects>
             <point key="canvasLocation" x="267" y="11"/>
         </scene>
-        <!--Text Field View Controller-->
+        <!--Demo of TextFields-->
         <scene sceneID="XQd-1S-h7c">
             <objects>
-                <viewController storyboardIdentifier="textFieldVCStoryboradID" id="42l-iI-fK0" customClass="TextFieldViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="textFieldVCStoryboradID" title="Demo of TextFields" id="42l-iI-fK0" customClass="TextFieldViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZTm-Pg-kWF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -403,10 +403,10 @@
             </objects>
             <point key="canvasLocation" x="1209.5070422535211" y="7.5"/>
         </scene>
-        <!--Label View Controller-->
+        <!--Demo of Labels-->
         <scene sceneID="fGT-Gu-A1r">
             <objects>
-                <viewController restorationIdentifier="labelVCStoryboradID" storyboardIdentifier="labelVCStoryboradID" id="nxs-u0-BGX" customClass="LabelViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="labelVCStoryboradID" storyboardIdentifier="labelVCStoryboradID" title="Demo of Labels" id="nxs-u0-BGX" customClass="LabelViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GXL-KK-ZRG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -617,6 +617,13 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="XYo-Jq-gcZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" red="0.71511802877354336" green="0.97008175996466306" blue="0.99923926590000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.047196324604462839" green="0.50245444812855178" blue="0.69585492813761052" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.01437717583" green="0.28914353250000002" blue="0.67696905139999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -627,10 +634,10 @@
             </objects>
             <point key="canvasLocation" x="-716" y="11"/>
         </scene>
-        <!--Picker View Controller-->
+        <!--Demo of Picker View-->
         <scene sceneID="gOz-0q-bHb">
             <objects>
-                <viewController restorationIdentifier="pickerVCStroryboardID" storyboardIdentifier="pickerVCStroryboardID" id="h9R-qA-Vdq" customClass="PickerViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="pickerVCStroryboardID" storyboardIdentifier="pickerVCStroryboardID" title="Demo of Picker View" id="h9R-qA-Vdq" customClass="PickerViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7Wj-7y-SBQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -827,10 +834,10 @@
             </objects>
             <point key="canvasLocation" x="3015.9420289855075" y="10.714285714285714"/>
         </scene>
-        <!--Progress View Controller-->
+        <!--Demo of Progress View-->
         <scene sceneID="L71-GP-nDA">
             <objects>
-                <viewController storyboardIdentifier="progressViewVCStoryboardID" id="EPK-q7-ne2" customClass="ProgressViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="progressViewVCStoryboardID" title="Demo of Progress View" id="EPK-q7-ne2" customClass="ProgressViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tTE-id-BbM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -958,10 +965,25 @@
             </objects>
             <point key="canvasLocation" x="3944.9275362318845" y="6.6964285714285712"/>
         </scene>
-        <!--Image View Controller-->
+        <!--Demo of call API and Fetch Data from it-->
+        <scene sceneID="owX-HV-fih">
+            <objects>
+                <viewController restorationIdentifier="apiCallURLSessionVCStoryboardID" storyboardIdentifier="apiCallURLSessionVCStoryboardID" title="Demo of call API and Fetch Data from it" id="gUg-tr-mz7" customClass="APICallURLSessionViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l5N-GN-8Oc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="V1h-6c-84T"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c1z-Zo-voA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4906" y="11"/>
+        </scene>
+        <!--Demo of ImageView,TextView,Stepper,SegmentControl-->
         <scene sceneID="bKo-Yv-8P4">
             <objects>
-                <viewController restorationIdentifier="imageViewVCStoryboardID" storyboardIdentifier="imageViewVCStoryboardID" id="yQh-g3-ml5" customClass="ImageViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="imageViewVCStoryboardID" storyboardIdentifier="imageViewVCStoryboardID" title="Demo of ImageView,TextView,Stepper,SegmentControl" id="yQh-g3-ml5" customClass="ImageViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZAb-rx-VSy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1154,10 +1176,10 @@
             </objects>
             <point key="canvasLocation" x="3014.4927536231885" y="762.05357142857144"/>
         </scene>
-        <!--Collection Demo View Controller-->
+        <!--Demo of Collection View-->
         <scene sceneID="t3D-R5-9mj">
             <objects>
-                <viewController restorationIdentifier="collectionViewVCStoryboardID" storyboardIdentifier="collectionViewVCStoryboardID" id="hvv-kF-WDx" customClass="CollectionDemoViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="collectionViewVCStoryboardID" storyboardIdentifier="collectionViewVCStoryboardID" title="Demo of Collection View" id="hvv-kF-WDx" customClass="CollectionDemoViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QPQ-hY-468">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1230,10 +1252,10 @@
             </objects>
             <point key="canvasLocation" x="3944.9275362318845" y="761.38392857142856"/>
         </scene>
-        <!--Detailed Collection View Controller-->
+        <!--Demo of click on Collection Item-->
         <scene sceneID="YRo-I1-NsR">
             <objects>
-                <viewController storyboardIdentifier="detailedCollectionViewVCStoryboardID" id="S9z-Wg-mNK" customClass="DetailedCollectionViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailedCollectionViewVCStoryboardID" title="Demo of click on Collection Item" id="S9z-Wg-mNK" customClass="DetailedCollectionViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4Nh-Sn-U5B">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1288,10 +1310,10 @@ And plant more trees</string>
             </objects>
             <point key="canvasLocation" x="4905.7971014492759" y="760.71428571428567"/>
         </scene>
-        <!--Button View Controller-->
+        <!--Demo of Buttons-->
         <scene sceneID="n2x-6w-WDH">
             <objects>
-                <viewController restorationIdentifier="buttonVCStoryboardID" storyboardIdentifier="buttonVCStoryboardID" id="U1d-1C-4N2" customClass="ButtonViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="buttonVCStoryboardID" storyboardIdentifier="buttonVCStoryboardID" title="Demo of Buttons" id="U1d-1C-4N2" customClass="ButtonViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dJn-8Z-79e">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1494,10 +1516,10 @@ And plant more trees</string>
             </objects>
             <point key="canvasLocation" x="2135" y="763"/>
         </scene>
-        <!--Stack View Controller-->
+        <!--Demo of Stack View-->
         <scene sceneID="Bjz-0G-vMG">
             <objects>
-                <viewController restorationIdentifier="stackViewVCStoryboardID" storyboardIdentifier="stackViewVCStoryboardID" id="izP-0P-sYZ" customClass="StackViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController restorationIdentifier="stackViewVCStoryboardID" storyboardIdentifier="stackViewVCStoryboardID" title="Demo of Stack View" id="izP-0P-sYZ" customClass="StackViewController" customModule="DemoUIKitProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bJl-1r-Rfl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -43,7 +43,7 @@ extension CollectionDemoViewController: UICollectionViewDelegate, UICollectionVi
     
     // Push DetailedCollection view controller on click on nature image
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let detailedVC = storyboard?.instantiateViewController(identifier: StoryboardIdentifier.DetailedCollectionViewVCIdentifier) as? DetailedCollectionViewController
+        let detailedVC = storyboard?.instantiateViewController(identifier: StoryboardIdentifier.detailedCollectionViewVCIdentifier) as? DetailedCollectionViewController
         print("Row on Collection View: \(indexPath.row)")
         print("Item at Row: \(collectionItems.imageTitle[indexPath.row])")
         detailedVC?.imageTitle = collectionItems.imageTitle[indexPath.row] //Set Detailed VC's property

@@ -113,6 +113,11 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
             let segmentVC = storyboard?.instantiateViewController(withIdentifier: StoryboardIdentifier.imageViewVCIdentifier) as! ImageViewController
             self.navigationController?.pushViewController(segmentVC, animated: true)
         }
+        // Call APICall View Controller to see how to call api and fetch data from
+        else if self.tableCellData.titleTableData[indexPath.row] == "APICall" {
+            let apiCallVC = storyboard?.instantiateViewController(withIdentifier: StoryboardIdentifier.apiCallURLSessionVCIdentifier) as! APICallURLSessionViewController
+            self.navigationController?.pushViewController(apiCallVC, animated: true)
+        }
     }
     
     func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {

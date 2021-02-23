@@ -21,7 +21,8 @@ class TableData {
                           UIImage(named: "UISegmentControl"),
                           UIImage(named: "UIImageView"),
                           UIImage(named: "UIButton"),
-                          UIImage(named: "UIStackView")]
+                          UIImage(named: "UIStackView"),
+                          UIImage(named: "APICall")]
     
     // Table View Controller - Titles
     let titleTableData = [("UITextField"),
@@ -34,7 +35,8 @@ class TableData {
                           ("UISegmentControl"),
                           ("UIImageView"),
                           ("UIButton"),
-                          ("UIStackView")]
+                          ("UIStackView"),
+                          ("APICall")]
     
     // Table View Controller - Descriptions
     let descriptionTableData = [("This will take you to contact Us page"),
@@ -47,6 +49,7 @@ class TableData {
                                 ("Tap here and see UISegmentControl used inside"),
                                 ("Tap here to see different Image Views"),
                                 ("Tap here to see different UIButtons"),
-                                ("Tap here to see used Stack Views for autolayout")]
+                                ("Tap here to see used Stack Views for autolayout"),
+                                ("This is the Demo to get data from api call and to show it in collection view")]
     
 }

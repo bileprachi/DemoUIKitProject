@@ -8,8 +8,6 @@
 import Foundation
 
 class StoryboardIdentifier {
-    // Table View Cell Identifier
-    static let cellIdentifier = "homeTableViewCell"
     
     // Controller Identifiers
     static let textFieldVCIdentifier = "textFieldVCStoryboradID"
@@ -20,7 +18,11 @@ class StoryboardIdentifier {
     static let imageViewVCIdentifier = "imageViewVCStoryboardID"
     static let progressViewVCIdentifier = "progressViewVCStoryboardID"
     static let collectionViewVCIdentifier = "collectionViewVCStoryboardID"
-    static let DetailedCollectionViewVCIdentifier = "detailedCollectionViewVCStoryboardID"
+    static let detailedCollectionViewVCIdentifier = "detailedCollectionViewVCStoryboardID"
+    static let apiCallURLSessionVCIdentifier = "apiCallURLSessionVCStoryboardID"
+    
+    // Table View Cell Identifier
+    static let cellIdentifier = "homeTableViewCell"
     
     // Collection View Cell Identifier
     static let collectionCellIdentifier = "natureTableViewCell"
