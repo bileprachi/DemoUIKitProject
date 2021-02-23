@@ -1,7 +1,7 @@
 # DemoUiKitProject
 This is the Demo of iOS-UiKit
 
-Aim: Here I have implemented below different iOS-UiKit Framework's components as a fresher -
+Aim: Here I have implemented below different iOS-UiKit Framework's components as a learning phase -
   1. Labels
   2. Buttons
   3. TextFields
@@ -13,5 +13,5 @@ Aim: Here I have implemented below different iOS-UiKit Framework's components as
   9. Navigation Controller
   10. Stack View
   11. Segment Control
-  
+  12. Stepper
   
