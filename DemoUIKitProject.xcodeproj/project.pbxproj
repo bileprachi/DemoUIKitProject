@@ -54,12 +54,12 @@
 		C716537525C11DBD00785E31 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StackViewController.swift; path = DemoUIKitProject/Controller/StackViewController.swift; sourceTree = SOURCE_ROOT; };
 		C716537925C186B300785E31 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = DemoUIKitProject/Controller/ImageViewController.swift; sourceTree = SOURCE_ROOT; };
 		C726194A25C94B0500BA1E28 /* CollectionDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDemoViewController.swift; sourceTree = "<group>"; };
-		C726194E25C950E100BA1E28 /* NatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NatureCollectionViewCell.swift; path = DemoUIKitProject/Controller/NatureCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
+		C726194E25C950E100BA1E28 /* NatureCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NatureCollectionViewCell.swift; path = DemoUIKitProject/Cell/NatureCollectionViewCell.swift; sourceTree = SOURCE_ROOT; };
 		C726195225C980AA00BA1E28 /* DetailedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailedCollectionViewController.swift; path = DemoUIKitProject/Controller/DetailedCollectionViewController.swift; sourceTree = SOURCE_ROOT; };
 		C77BB05925C2B3D400936FE5 /* PickerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerData.swift; sourceTree = "<group>"; };
 		C77BB05F25C8181700936FE5 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProgressViewController.swift; path = DemoUIKitProject/Controller/ProgressViewController.swift; sourceTree = SOURCE_ROOT; };
 		C78750A025E4F38600EF0FE7 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
-		C78750A925E51E9F00EF0FE7 /* APICallURLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APICallURLSessionViewController.swift; path = DemoUIKitProject/View/APICallURLSessionViewController.swift; sourceTree = SOURCE_ROOT; };
+		C78750A925E51E9F00EF0FE7 /* APICallURLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APICallURLSessionViewController.swift; path = DemoUIKitProject/Controller/APICallURLSessionViewController.swift; sourceTree = SOURCE_ROOT; };
 		C78750AF25E628C700EF0FE7 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 		C78750B325E7D10600EF0FE7 /* UrlSessionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionTableViewCell.swift; sourceTree = "<group>"; };
 		C798B96125C90B2100093C5D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
@@ -113,7 +113,6 @@
 			isa = PBXGroup;
 			children = (
 				C70ADA3B25BF142800D6B50A /* HomeViewController.swift */,
-				C70ADA4125BF4C4000D6B50A /* HomeTableViewCell.swift */,
 				C70ADA3E25BF228600D6B50A /* TextFieldViewController.swift */,
 				C70ADA4E25C0921D00D6B50A /* LabelViewController.swift */,
 				C716537125C119C100785E31 /* ButtonViewController.swift */,
@@ -122,7 +121,6 @@
 				C716537925C186B300785E31 /* ImageViewController.swift */,
 				C77BB05F25C8181700936FE5 /* ProgressViewController.swift */,
 				C726194A25C94B0500BA1E28 /* CollectionDemoViewController.swift */,
-				C726194E25C950E100BA1E28 /* NatureCollectionViewCell.swift */,
 				C726195225C980AA00BA1E28 /* DetailedCollectionViewController.swift */,
 				C78750A925E51E9F00EF0FE7 /* APICallURLSessionViewController.swift */,
 			);
@@ -154,6 +152,8 @@
 		C78750B225E7D0CA00EF0FE7 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				C70ADA4125BF4C4000D6B50A /* HomeTableViewCell.swift */,
+				C726194E25C950E100BA1E28 /* NatureCollectionViewCell.swift */,
 				C78750B325E7D10600EF0FE7 /* UrlSessionTableViewCell.swift */,
 			);
 			path = Cell;
