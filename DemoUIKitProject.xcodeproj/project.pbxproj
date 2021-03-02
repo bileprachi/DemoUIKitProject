@@ -29,6 +29,8 @@
 		C787509825E4E63400EF0FE7 /* DetailedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C726195225C980AA00BA1E28 /* DetailedCollectionViewController.swift */; };
 		C78750A125E4F38600EF0FE7 /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78750A025E4F38600EF0FE7 /* Author.swift */; };
 		C78750AA25E51E9F00EF0FE7 /* APICallURLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78750A925E51E9F00EF0FE7 /* APICallURLSessionViewController.swift */; };
+		C78750B025E628C700EF0FE7 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78750AF25E628C700EF0FE7 /* Music.swift */; };
+		C78750B425E7D10700EF0FE7 /* UrlSessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78750B325E7D10600EF0FE7 /* UrlSessionTableViewCell.swift */; };
 		C798B96225C90B2100093C5D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798B96125C90B2100093C5D /* Book.swift */; };
 		C798B96525C934A600093C5D /* CollectionViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C798B96425C934A600093C5D /* CollectionViewData.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +60,8 @@
 		C77BB05F25C8181700936FE5 /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProgressViewController.swift; path = DemoUIKitProject/Controller/ProgressViewController.swift; sourceTree = SOURCE_ROOT; };
 		C78750A025E4F38600EF0FE7 /* Author.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		C78750A925E51E9F00EF0FE7 /* APICallURLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APICallURLSessionViewController.swift; path = DemoUIKitProject/View/APICallURLSessionViewController.swift; sourceTree = SOURCE_ROOT; };
+		C78750AF25E628C700EF0FE7 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		C78750B325E7D10600EF0FE7 /* UrlSessionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlSessionTableViewCell.swift; sourceTree = "<group>"; };
 		C798B96125C90B2100093C5D /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		C798B96425C934A600093C5D /* CollectionViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,6 +101,7 @@
 				C70ADA3725BEFE3200D6B50A /* Model */,
 				C70ADA3825BEFE4800D6B50A /* View */,
 				C70ADA3625BEFE1800D6B50A /* Controller */,
+				C78750B225E7D0CA00EF0FE7 /* Cell */,
 				C70ADA2725BEE6E800D6B50A /* Assets.xcassets */,
 				C70ADA2925BEE6E800D6B50A /* LaunchScreen.storyboard */,
 				C70ADA2C25BEE6E800D6B50A /* Info.plist */,
@@ -133,6 +138,7 @@
 				C798B96125C90B2100093C5D /* Book.swift */,
 				C798B96425C934A600093C5D /* CollectionViewData.swift */,
 				C78750A025E4F38600EF0FE7 /* Author.swift */,
+				C78750AF25E628C700EF0FE7 /* Music.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -143,6 +149,14 @@
 				C70ADA2425BEE6E300D6B50A /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		C78750B225E7D0CA00EF0FE7 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C78750B325E7D10600EF0FE7 /* UrlSessionTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +239,7 @@
 				C787508525E4E4BE00EF0FE7 /* LabelViewController.swift in Sources */,
 				C787506725E4E09900EF0FE7 /* TextFieldViewController.swift in Sources */,
 				C70ADA4A25BFEFB700D6B50A /* StoryboardIdentifier.swift in Sources */,
+				C78750B425E7D10700EF0FE7 /* UrlSessionTableViewCell.swift in Sources */,
 				C70ADA4525BFEA5200D6B50A /* TableData.swift in Sources */,
 				C78750A125E4F38600EF0FE7 /* Author.swift in Sources */,
 				C798B96525C934A600093C5D /* CollectionViewData.swift in Sources */,
@@ -235,6 +250,7 @@
 				C70ADA2125BEE6E300D6B50A /* SceneDelegate.swift in Sources */,
 				C77BB05A25C2B3D400936FE5 /* PickerData.swift in Sources */,
 				C70ADA3C25BF142800D6B50A /* HomeViewController.swift in Sources */,
+				C78750B025E628C700EF0FE7 /* Music.swift in Sources */,
 				C726194B25C94B0500BA1E28 /* CollectionDemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

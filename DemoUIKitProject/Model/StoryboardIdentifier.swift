@@ -21,10 +21,13 @@ class StoryboardIdentifier {
     static let detailedCollectionViewVCIdentifier = "detailedCollectionViewVCStoryboardID"
     static let apiCallURLSessionVCIdentifier = "apiCallURLSessionVCStoryboardID"
     
-    // Table View Cell Identifier
+    // Home Table View Cell Identifier
     static let cellIdentifier = "homeTableViewCell"
     
     // Collection View Cell Identifier
     static let collectionCellIdentifier = "natureTableViewCell"
+    
+    // APICall URLSession Table View Identifier
+    static let callAPICellIdentifier = "urlSessionTableViewCell"
     
 }

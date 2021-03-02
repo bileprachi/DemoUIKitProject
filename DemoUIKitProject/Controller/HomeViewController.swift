@@ -28,11 +28,9 @@ class HomeViewController: UIViewController {
     }
 }
 
-// Conforming Datasource and Delegate
-extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 100          // Each Row height = 100
-    }
+//MARK: - UITableViewDataSource
+
+extension HomeViewController: UITableViewDataSource {
     
     func numberOfSections(in tableView: UITableView) -> Int {
         return 1            // Section = 1
@@ -42,6 +40,10 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         return tableCellData.titleTableData.count   // This is coming from class TableData
     }
    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100          // Each Row height = 100
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let myTableViewCell = homeScreenTableView.dequeueReusableCell(withIdentifier: StoryboardIdentifier.cellIdentifier, for: indexPath) as! HomeTableViewCell
         print("Row: \(indexPath.row) ")
@@ -54,6 +56,20 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         
         return myTableViewCell
     }
+    
+//    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+//        return "Click on any one to go ahead - "
+//    }
+    
+//    func tableView(_ tableView: UITableView, titleForFooterInSection section: Int) -> String? {
+//        return "By Prachi Bile"
+//    }
+    
+}
+
+//MARK: - UITableViewDelegate
+
+extension HomeViewController: UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
@@ -124,5 +140,4 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         print(indexPath.row)
         print("deselected Item: \(indexPath.item)")
     }
-    
 }
