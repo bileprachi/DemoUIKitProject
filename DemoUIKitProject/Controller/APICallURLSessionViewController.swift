@@ -189,6 +189,7 @@ extension APICallURLSessionViewController: UITableViewDelegate {
         if let artistURL = URL(string: displayDetails[indexPath.row].artistUrl) {
             UIApplication.shared.open(artistURL)
         }
+        dataTableView.deselectRow(at: indexPath, animated: true)
     }
 }
 
